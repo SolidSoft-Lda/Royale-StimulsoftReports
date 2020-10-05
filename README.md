@@ -1,6 +1,6 @@
 # Royale-StimulsoftReports
 
-A library for Apache Royale Framework (https://royale.apache.org) that wraps the Stimulsoft Reports JS library (https://www.stimulsoft.com/en/products/reports-js)
+A library for Apache Royale Framework (https://royale.apache.org) that wraps the Stimulsoft Reports JS library (https://www.stimulsoft.com/en/products/reports-js). Stimulsoft Reports.JS, designed on JavaScript and HTML5 technologies, is a robust set of components for working with reports. *Note*: you need a license to use this framework.
 
 Setup
 ````actionscript
