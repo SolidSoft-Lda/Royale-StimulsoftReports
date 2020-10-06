@@ -110,6 +110,7 @@ class StimulsoftReports
 		//specify necessary options for the viewer
 		var options = new Stimulsoft.Designer.StiDesignerOptions();
 		options.height = "100%";
+		options.appearance.allowChangeWindowTitle = false;
 		options.appearance.showTooltips = false;
 		options.toolbar.showFileMenu = false;
 		options.toolbar.showPreviewButton = false;
