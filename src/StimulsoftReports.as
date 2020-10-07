@@ -19,6 +19,8 @@ package
 
 		public static function setLicenseKey(licenseKey:String):void {}
 
+		public static function setLocalization(localization:String):void {}
+
 		public static function setLanguage(language:String):void {}
 
 		public static function setParameters(parameters:Array):void {}

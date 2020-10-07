@@ -56,6 +56,11 @@ class StimulsoftReports
 		Stimulsoft.Base.StiLicense.key = licenseKey;
 	}
 
+	static setLocalization(localization)
+	{
+		Stimulsoft.Base.Localization.StiLocalization.setLocalization(localization);
+	}
+
 	static setLanguage(language)
 	{
 		if (language != "en")
@@ -114,6 +119,7 @@ class StimulsoftReports
 		options.appearance.showTooltips = false;
 		options.toolbar.showFileMenu = false;
 		options.toolbar.showPreviewButton = false;
+		options.showLocalization = false;
 
 		//create an instance of the designer
 		this.#designer = new Stimulsoft.Designer.StiDesigner(options, "Designer", false);
