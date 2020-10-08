@@ -7,8 +7,11 @@ Setup
 //if you comment this line, you can test this library in the trial mode
 StimulsoftReports.setLicenseKey("YOUR LICENSE KEY HERE");
 
-//you can ignore this line for English language
+//you can ignore this lines for English language
+//load from a file => this method shows a warning on Google Chrome about access the xml file
 StimulsoftReports.setLanguage("LANGUAGE CODE"); //ex: "pt", "es"
+//load from a string => this method may avoid at all any browser warning but requires that you load the language data from another approach (for example from server thru RemoteObject)
+StimulsoftReports.setLocalization("LOCALIZATION XML STRING");
 `````
 
 Global parameters (parameters added once and shared between all reports)
